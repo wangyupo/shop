@@ -70,6 +70,7 @@
     line-height: 35px;
     color: #FFF;
     margin-right: 59px;
+    display: inline;
 }
 .shopText {
     color: #FFF;
@@ -133,15 +134,19 @@
     left: 0;
     top: 35px;
     width: 100%;
+    padding-bottom: 1px;
 }
 .shopClass_item {
-    padding: 11px 10px;
+    padding: 13px 10px;
     border-bottom: #3497F2 solid 1px;
     border-top: #5AA1FE solid 1px;
+    line-height: 16px;
 }
 .shopClass_item dt {
-    height: 24px;
+    height: 21px;
     background: url("../images/icon/shop_sj.jpg") right center no-repeat;
+    line-height: 1;
+    overflow: hidden;
 }
 .shopClass_item .b {
     font-size: 14px;
@@ -323,6 +328,9 @@
 }
 
 /* shopList */
+.shop_list {
+    margin-bottom: 15px;
+}
 .shopList_top,.shopList_sm {
     margin-right: -4px;
 }
@@ -356,7 +364,8 @@
 .shopItem_sm {
     width: 202px;
     border-right: #999 solid 1px;
-    height: 116px;
+    height: 110px;
+    padding-top: 6px;
     float: left;
 }
 .shopItem_smImg {
@@ -382,4 +391,31 @@
     font-weight: normal;
     color: #181818;
     line-height: 30px;
+}
+
+/* footer */
+.hr_25 {
+    height: 25px;
+}
+.footer {
+    text-align: center;
+    background-color: #D4D4D4;
+    line-height: 24px;
+    padding: 50px 0;
+}
+.footer i{
+    font-style: normal;
+    margin: 0 5px;
+}
+.footer a{
+    color: #000;
+}
+.footer a:hover{
+    color: red;
+}
+.web {
+    padding-top: 30px;
+}
+.web img {
+    margin: 0 12px;
 }
