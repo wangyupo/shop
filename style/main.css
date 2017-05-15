@@ -231,16 +231,15 @@
 }
 
 /* banner */
+.banner {
+    margin-bottom: 15px;
+}
 .banner_bar {
-    width: 810px;
-    height: 326px;
     float: right;
     position: relative;
     overflow: hidden;
 }
 .imgBox {
-    width: 1620px;
-    height: 326px;
     position: absolute;
     left: 0;
     top: 0;
@@ -249,8 +248,6 @@
     float: left;
 }
 .imgBox img{
-    width: 810px;
-    height: 326px;
     display: block;
 }
 .imgNum {
@@ -270,4 +267,53 @@
 }
 .imgNum .active {
     background-color: #FF7700;
+}
+.banner_big,.banner_big img {
+    width: 810px;
+    height: 326px;
+}
+.banner_big .imgBox {
+    width: 1620px;
+    height: 326px;
+}
+.banner_sm,.banner_sm img {
+    width: 190px;
+    height: 400px;
+}
+.banner_sm .imgBox {
+    width: 380px;
+    height: 400px;
+}
+
+/* shopTit */
+.shopTit {
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+.shopTit h3 {
+    font-size: 24px;
+    font-weight: normal;
+    float: left;
+    padding-left: 15px;
+}
+.icon {
+    width: 44px;
+    height: 44px;
+    background: url("../images/icon/shopIcon1.jpg") left top no-repeat;
+    float: left;
+}
+.more {
+    float: right;
+}
+.more:hover {
+    text-decoration: underline;
+}
+
+/* shopList */
+.shopList .leftArea {
+    width: 190px;
+}
+.shopList .rightArea {
+    width: 810px;
 }
