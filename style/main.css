@@ -34,3 +34,50 @@
     padding-left: 41px;
     padding-top: 13px;
 }
+/* searchBox */
+.search_box {
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 185px;
+}
+.search_text {
+    width: 350px;
+    height: 35px;
+    line-height: 35px\9;
+    padding: 0 5px;
+    background-color: #FFF;
+}
+.search_btn {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #FF8C00;
+    color: #FFF;
+}
+/* shopCar */
+.shopCar {
+    width: 145px;
+    height: 35px;
+    background-color: #FF8C00;
+    margin-top: 23px;
+    font-size: 14px;
+    line-height: 35px;
+    color: #FFF;
+    margin-right: 59px;
+}
+.shopText {
+    color: #FFF;
+    height: 100%;
+    width: 87px;
+    border-right: #E27A00 solid 1px;
+    background: url("../images/icon/shopIcon.jpg") 10px center no-repeat;
+    text-indent: 40px;      /* 首行缩进,避免计算 */
+}
+.shopNum {
+    width: 27px;
+    height: 35px;
+    border-left: #FF9C01 solid 1px;
+    background: url("../images/icon/arrow.jpg") 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+}
